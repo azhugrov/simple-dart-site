@@ -1,6 +1,7 @@
 #library("hypcomm:site");
 #import("../crimson/core/CrimsonLib.dart");
 #import("../crimson/handlers/HandlersLib.dart");
+#import("../log4dart/Lib.dart");
 #import("dart:json");
 #import("dart:io");
 
@@ -18,6 +19,7 @@ class Application {
 }
 
 void main() {
+  LoggerFactory.builder = (name) => new LoggerImpl(name, debugEnabled:false);
   print("start the application");
   new Application().run();
 }
