@@ -1,7 +1,0 @@
-dependencies:
- CrimsonHttp:
-  git: git://github.com/zhygr/CrimsonHttp.git
- log4dart:
-  git: git://github.com/zhygr/log4dart.git
- MustacheDartPort:
-  git: git://github.com/zhygr/MustacheDartPort.git
