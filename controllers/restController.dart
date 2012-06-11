@@ -1,9 +1,9 @@
 /** A base class for controller that follows a rest convenction */
 class RestController implements AppController {
     /** A pattern for matching numbers */ 
-    static final RegExp intPattern = new RegExp(@"^\d+$");
+    static final RegExp intPattern = const RegExp(@"^\d+$");
     /** A pattern for edit requests */
-    static final RegExp editPattern = new RegExp(@"^(\d+)/edit$");
+    static final RegExp editPattern = const RegExp(@"^(\d+)/edit$");
     /** A base path of given route */
     String _path;  
     /** A stub implementation for a create action */
@@ -25,12 +25,12 @@ class RestController implements AppController {
     Future handler(HttpRequest req, HttpResponse rsp, CrimsonData data) {
        String method = req.method;
        String url; 
-       if (req.path.length == _path.length + 1) {
+       if (req.path.length == _path.length) {
          url = "";
-       } else if (req.path.length > _path.length + 1) {
+       } else if (req.path.length > _path.length) {
          url = req.path.substring(_path.length);  
        } else {
-         throw new IllegalArgumentException("should not handles a given path: ${req.path}");
+         throw new IllegalArgumentException("should not handle a given path: ${req.path}");
        }
        if (method == "GET") {
          if (intPattern.hasMatch(url)) {
@@ -46,13 +46,21 @@ class RestController implements AppController {
          }
        } 
        else if (method == "POST") {
-              
+         return create(req, rsp, data);       
        }
        else if (method == "PUT") {
-         
+         if (intPattern.hasMatch(url)) {
+           data["id"] = Math.parseInt(url);
+         } else {
+           throw new IllegalArgumentException("should not handle a given path: ${req.path}");  
+         }
        }
        else if (method == "DELETE") {
-         
+         if (intPattern.hasMatch(url)) {
+           data["id"] = Math.parseInt(url);
+         } else {
+           throw new IllegalArgumentException("should not handle a given path: ${req.path}");
+         }
        }
     }
     
