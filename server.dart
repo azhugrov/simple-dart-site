@@ -13,7 +13,7 @@ class Application {
 }
 
 void main() {
-  LoggerFactory.builder = (name) => new LoggerImpl(name, debugEnabled:false);
+  LoggerFactory.builder = (name) => new LoggerImpl(name, debugEnabled:true);
   print("start the application");
   new Application().run();
 }

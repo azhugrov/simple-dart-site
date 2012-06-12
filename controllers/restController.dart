@@ -65,7 +65,7 @@ class RestController implements AppController {
     }
     
     /** A base path for a given route */
-    String set route(String path) => _path = path; 
+    void set route(String path) => _path = path; 
     
-    
+    String get route() => _path;
 }
