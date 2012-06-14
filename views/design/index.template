@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Гиперком проект - проектирование зданий и сооружений. Архитектурные и строительные проекты современных
+        зданий</title>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    {{>head}}
+</head>
+<body>
+
+    <div id="content">
+        <div id="centerdiv">
+
+            {{>header}}
+
+            <div id="AboutBlock">
+                <img class='titleImg' src="img/design-title.gif" alt="title"/>
+
+                <div class="underLineA">
+                    <img class="vertLine" src="img/vertical-line.gif" alt=""/>
+                </div>
+
+                <div id="aboutTxt">
+                    <p> Наша компания готова предложить вам выполнение дизайн-проектов различной сложности.
+                        Создаем и реализовываем дизайн квартир, коттеджей, офисов. Проект включает выполнение
+                        предпроектной(эскизной) части и рабочей части проекта. Предпроектная часть – это разные варианты
+                        перепланировки объекта, работа над эскизами, обсуждение используемых стилей, отделочный материалов.
+                        Рабочий проект невозможен без выполнения предпроектной части, он включает в себя всю точную рабочую
+                        документацию, чертежи, визуализации, спецификации, ведомости отделки на основе которых уже можно
+                        произвести расчет сметы и выполнять ремонтно-отделочные работы
+
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="title">
+
+                <img class='titleImg' src="img/latestwork-title.gif" alt="latestwork"/>
+
+                <div class="underLineA">
+                    <img class="vertLine" src="img/vertical-line.gif" alt=""/>
+                </div>
+
+                <div class="designBlock">
+                    <a href="projects/livingroom.html" target="_blank"> <img class="previewImg" src="img/livingRoom.gif"
+                                                                             alt="living room"/> </a>
+
+                    <div class="projectName">
+                        <a href="projects/livingroom.html" target="_blank"> Гостиные </a>
+
+                    </div>
+
+                    <a href="projects/bathroom.html" target="_blank"> <img class="previewImg" src="img/bathroom.gif"
+                                                                           alt="bathroom"/> </a>
+
+                    <div class="projectName">
+                        <a href="projects/bathroom.html" target="_blank"> Ванные комнаты </a>
+                    </div>
+
+                    <a href="projects/nursery.html" target="_blank"> <img class="previewImg" src="img/nursery.gif"
+                                                                          alt="nursery"/></a>
+
+                    <div class="projectName">
+                        <a href="projects/nursery.html" target="_blank"> Детские </a>
+
+                    </div>
+
+                    <a href="projects/kitchen.html" target="_blank"> <img class="previewImg" src="img/kitchen.gif"
+                                                                          alt="kitchen"/></a>
+
+                    <div class="projectName">
+                        <a href="projects/kitchen.html" target="_blank">Кухни </a>
+
+                    </div>
+
+                    <a href="projects/bedroom.html" target="_blank"> <img class="previewImg" src="img/bedroom.gif"
+                                                                          alt="bedroom"/></a>
+
+                    <div class="projectName">
+                        <a href="projects/bedroom.html" target="_blank">Спальни </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{>footer}}
+
+</body>
+</html>
