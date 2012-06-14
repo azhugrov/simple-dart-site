@@ -9,6 +9,7 @@ class Application {
           .addEndpoint(new ControllerRoute("/aboutus", new AboutusController()))
           .addEndpoint(new ControllerRoute("/projects", new ProjectsController()))
           .addEndpoint(new ControllerRoute("/design", new DesignController()))
+          .addEndpoint(new ControllerRoute("/engineering", new EngineeringController()))
           .addEndpoint(new StaticFile("./static"));
     server.modules["*"] = module;
     server.listen("127.0.0.1", 8080);

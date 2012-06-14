@@ -29,7 +29,7 @@
         </div>
 
         <div class="menuButton">
-            <a href="engineering.html"> <img src="img/m-engeneering.gif" alt="engeneering"/> </a>
+            <a href="/engineering"> <img src="img/m-engeneering.gif" alt="engeneering"/> </a>
 
             <span class="menuSeparator"></span>
         </div>

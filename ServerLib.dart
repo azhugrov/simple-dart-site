@@ -11,3 +11,4 @@
 #source("controllers/aboutusController.dart");
 #source("controllers/projectsController.dart");
 #source("controllers/designController.dart");
+#source("controllers/engineeringController.dart");
