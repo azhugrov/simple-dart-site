@@ -5,14 +5,14 @@
     <div id="menu">
 
         <div class="menuButton">
-            <a href="index.html"> <img src="img/m-main_a.gif" alt="main"/> </a>
+            <a href="/home"> <img src="img/m-main_a.gif" alt="main"/> </a>
 
             <span class="menuSeparator"></span>
         </div>
 
 
         <div class="menuButton">
-            <a href="aboutus.html"> <img src="img/m-aboutus.gif" alt="aboutus"/> </a>
+            <a href="/aboutus"> <img src="img/m-aboutus.gif" alt="aboutus"/> </a>
 
             <span class="menuSeparator"></span>
         </div>

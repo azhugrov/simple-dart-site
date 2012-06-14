@@ -9,3 +9,5 @@
 #source("controllers/restController.dart");
 #source("controllers/homeController.dart");
 #source("controllers/aboutusController.dart");
+#source("controllers/projectsController.dart");
+#source("controllers/designController.dart");

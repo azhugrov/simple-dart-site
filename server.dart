@@ -5,7 +5,9 @@ class Application {
     CrimsonHttpServer server = new CrimsonHttpServer();
     CrimsonModule module = new CrimsonModule(server);
     module.handlers
-          .addEndpoint(new ControllerRoute("/home", new HomeController()) )
+          .addEndpoint(new ControllerRoute("/home", new HomeController()))
+          .addEndpoint(new ControllerRoute("/aboutus", new AboutusController()))
+          .addEndpoint(new ControllerRoute("/projects", new ProjectsController()))
           .addEndpoint(new StaticFile("./static"));
     server.modules["*"] = module;
     server.listen("127.0.0.1", 8080);
