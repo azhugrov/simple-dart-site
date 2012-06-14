@@ -7,19 +7,33 @@ class RestController implements AppController {
     /** A base path of given route */
     String _path;  
     /** A stub implementation for a create action */
-    Future create(HttpRequest req, HttpResponse rsp, CrimsonData data) {}
+    Future create(HttpRequest req, HttpResponse rsp, CrimsonData data) {
+        return null;
+    }
     /** A stub implementation for show view */
-    Future show(HttpRequest req, HttpResponse rsp, CrimsonData data) {}
+    Future show(HttpRequest req, HttpResponse rsp, CrimsonData data) {
+        return null;
+    }
     /** A stub implementation for a update action */
-    Future update(HttpRequest req, HttpResponse rsp, CrimsonData data) {}
+    Future update(HttpRequest req, HttpResponse rsp, CrimsonData data) {
+        return null;
+    }
     /** A stub implementation for a delete action */
-    Future delete(HttpRequest req, HttpResponse rsp, CrimsonData data) {}
+    Future delete(HttpRequest req, HttpResponse rsp, CrimsonData data) {
+        return null;
+    }
     /** A stub implementation for new form view */
-    Future showNew(HttpRequest req, HttpResponse rsp, CrimsonData data) {}
+    Future showNew(HttpRequest req, HttpResponse rsp, CrimsonData data) {
+        return null;
+    }
     /** A stub implementation for edit view */
-    Future edit(HttpRequest req, HttpResponse rsp, CrimsonData data) {}
+    Future edit(HttpRequest req, HttpResponse rsp, CrimsonData data) {
+        return null;
+    }
     /** A stub implementation for list items view */
-    Future index(HttpRequest req, HttpResponse rsp, CrimsonData data) {}
+    Future index(HttpRequest req, HttpResponse rsp, CrimsonData data) {
+        return null;
+    }
     
     /** Low level machinery */
     Future handler(HttpRequest req, HttpResponse rsp, CrimsonData data) {
@@ -62,6 +76,15 @@ class RestController implements AppController {
            throw new IllegalArgumentException("should not handle a given path: ${req.path}");
          }
        }
+    }
+
+    Future render(String template, Map viewData, HttpRequest req, HttpResponse rsp) {
+        TemplateFactory tf = new TemplateFactory();
+        Future<Template> futureTemplate = tf.compile('views$template.template');
+        return futureTemplate.chain((Template template) => template.render(viewData))
+                             .transform((String returnedString){
+                                rsp.outputStream.writeString(returnedString);
+                             });
     }
     
     /** A base path for a given route */

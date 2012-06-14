@@ -1,9 +1,85 @@
-<html>
-    <head>
-        <title>Home Page</title>
-    </head>
-    <body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Гиперком проект - проектирование зданий и сооружений. Архитектурные и строительные проекты современных зданий</title>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    {{>head}}
+</head>
+<body>
+
+<!--for footer on bottom-->
+<div id="content">
+
+    <div id="centerdiv">
+
         {{>header}}
-        Here would be a home page.
-    </body>
+
+        <div id="aboutShadow">
+            <div id="about">
+
+                <p> Гиперком-проект - это </p>
+
+                <ul class="aboutList">
+                    <li>многолетний опыт наших сотрудников</li>
+                    <li>ориентация на международные стандарты качества работ</li>
+                    <li>оптимальное сочетание сроков, качества и стоимости проектных работ</li>
+                </ul>
+
+            </div>
+
+        </div>
+        <img id="planImg" src="img/plan-picture.gif" alt="picture"/>
+
+        <div id="news">
+
+            <img class='titleImg' src="img/news-title.gif" alt="news"/>
+
+            <!--imitation button under the title-->
+            <div class="underLineN"><img class="vertLine" src="img/vertical-line.gif" alt=""/></div>
+
+            <img class="previewImg" src="img/news1.gif" alt="news"/>
+
+            <div class="newsBlock">
+                <img src="img/arrow.gif" alt=""/>
+                <span class="date">26.10.2009 г.</span> <br/>
+                <span class="linknews">Начаты проектные работы по объекту «Реконструкция с приспособлением здания № 3 по ул. Комсомольской с размещением административных помещений и объектов торговли (незавершенное строительством капитальное строение)»</span>
+            </div>
+
+            <span class="newsSeparator"></span>
+
+            <img class="previewImg" src="img/news2.gif" alt="news"/>
+
+            <div class="newsBlock">
+                <img src="img/arrow.gif" alt=""/>
+                <span class="date">18.10.2009 г.</span> <br/>
+                <span class="linknews">Получено согласование КАиГ г.Минска по дальнейшему проектированию многоэтажного типового паркинга</span>
+            </div>
+
+        </div>
+        <div id="designBlock">
+            <div class="shadow">
+
+                <p>проектирование объектов:</p>
+
+                <ul class="devObjectList">
+                    <li>Торгово-развлекательные центры</li>
+                    <li>Административно-деловые центры</li>
+                    <li>Логистические комплексы</li>
+                    <li>Жилые комплексы</li>
+                    <li>Физкультурно-оздоровительные комплексы</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{{>footer}}
+
+</body>
 </html>

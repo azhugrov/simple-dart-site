@@ -1,1 +1,55 @@
-Test that I can move header around. Bla-Bla-Bla.
+<div id="top"><img src="img/logo.gif" alt="logo"/></div>
+
+<div class="menuBlock">
+
+    <div id="menu">
+
+        <div class="menuButton">
+            <a href="index.html"> <img src="img/m-main_a.gif" alt="main"/> </a>
+
+            <span class="menuSeparator"></span>
+        </div>
+
+
+        <div class="menuButton">
+            <a href="aboutus.html"> <img src="img/m-aboutus.gif" alt="aboutus"/> </a>
+
+            <span class="menuSeparator"></span>
+        </div>
+
+        <div class="menuButton">
+            <a href="projects.html"> <img src="img/m-projects.gif" alt="projects"/> </a>
+
+            <span class="menuSeparator"></span>
+        </div>
+
+        <div class="menuButton">
+            <a href="design.html"> <img src="img/m-design.gif" alt="design"/> </a>
+
+            <span class="menuSeparator"></span>
+        </div>
+
+        <div class="menuButton">
+            <a href="engineering.html"> <img src="img/m-engeneering.gif" alt="engeneering"/> </a>
+
+            <span class="menuSeparator"></span>
+        </div>
+
+        <div class="menuButton">
+            <a href="vacancy.html"> <img src="img/m-vacancy.gif" alt="vacancy"/> </a>
+
+            <span class="menuSeparator"></span>
+        </div>
+
+        <div class="menuButton">
+            <a href="contact.html"> <img src="img/m-contacts.gif" alt="contacts"/> </a>
+        </div>
+
+    </div>
+
+    <img class="centerCollage" src="{{image}}" alt="future"/>
+
+    <!--design block on the right border -->
+    <span id="right"></span>
+
+</div>
