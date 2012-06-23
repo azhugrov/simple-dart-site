@@ -2,13 +2,12 @@ class DesignController extends RestController {
   
   Future index(HttpRequest req, HttpResponse rsp, CrimsonData data) {
     Map viewData = {
-        "head": {},
-        "header": {
-            "image": "img/future07.jpg"
-        },
-        "footer": {}
+      "image": "img/future07.jpg",
+      "menu": "design"
     };
-    return render("/design/index", viewData, req, rsp);      
+    var view = new D_sellstome_hypcomm_site_views_design_index_edt();
+    view.render(viewData, rsp.outputStream);
+    return null;      
   }
   
 }

@@ -4,7 +4,7 @@
 #import("packages/CrimsonHttp/core/CrimsonLib.dart");
 #import("packages/CrimsonHttp/handlers/HandlersLib.dart");
 #import("packages/log4dart/Lib.dart");
-#import("packages/MustacheDartPort/Lib.dart");
+#import("packages/edt/RuntimeLib.dart");
 #source("server.dart");
 #source("controllers/restController.dart");
 #source("controllers/homeController.dart");
@@ -12,3 +12,11 @@
 #source("controllers/projectsController.dart");
 #source("controllers/designController.dart");
 #source("controllers/engineeringController.dart");
+#source("controllers/contactsController.dart");
+//add view templates
+#source("views/aboutus/index.dart");
+#source("views/design/index.dart");
+#source("views/engineering/index.dart");
+#source("views/home/index.dart");
+#source("views/projects/index.dart");
+#source("views/contacts/index.dart");

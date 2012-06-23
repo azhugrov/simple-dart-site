@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Гиперком проект - проектирование зданий и сооружений. Архитектурные и строительные проекты современных
+        зданий</title>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    {{> ../layout/head.edt }}
+</head>
+
+<body>
+
+<div id="content">
+    <div id="centerdiv">
+
+        {{> ../layout/header.edt }}
+
+        <div id="contactBlock">
+            <img class='titleImg' src="img/contact-title.gif" alt="news"/>
+
+            <div class="underLineA"><img class="vertLine" src="img/vertical-line.gif" alt=""/></div>
+
+            <div id="contactTxt">
+
+                Адрес:
+                <p>220004, РБ, Минск, ул. П. Бровки 12.А</p>
+                Директор:
+                <p>Александр Владимирович, +(375 29) 111-31-31</p>
+                Директор по маркетингу:
+                <p>Евгений, +(375 29) 656-45-54, +(375 29) 103-07-07</p>
+                Дизайн-проекты:
+                <p> +(375 29) 757-26-74</p>
+                E-mail:
+                <p><a class="email" href="mailto:info@ hyp-project.by">info@ hyp-project.by</a></p>
+
+            </div>
+        </div>
+
+        <div class="title">
+
+            <img class='titleImg' src="img/schema-title.gif" alt="licence"/>
+
+            <div class="underLineA"><img class="vertLine" src="img/vertical-line.gif" alt=""/></div>
+
+        </div>
+
+        <a href="img/schema.jpg" target="_blank"> <img id="schema" src="img/schema.gif" alt="map"/> </a>
+
+    </div>
+</div>
+
+{{> ../layout/footer.edt }}
+
+</body>
+</html>

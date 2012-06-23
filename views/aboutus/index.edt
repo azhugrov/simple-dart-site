@@ -9,7 +9,7 @@
     <meta name="keywords" content=""/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link href="style.css" rel="stylesheet" type="text/css"/>
-    {{>head}}
+    {{> ../layout/head.edt }}
 </head>
 
 <body>
@@ -18,7 +18,7 @@
 
     <div id="centerdiv">
 
-        {{>header}}
+        {{> ../layout/header.edt }}
 
         <div id="AboutBlock">
 
@@ -87,7 +87,7 @@
     </div>
 </div>
 
-{{>footer}}
+{{> ../layout/footer.edt }}
 
 </body>
 </html>

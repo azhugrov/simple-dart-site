@@ -77,18 +77,9 @@ class RestController implements AppController {
          }
        }
     }
-
-    Future render(String template, Map viewData, HttpRequest req, HttpResponse rsp) {
-        TemplateFactory tf = new TemplateFactory();
-        Future<Template> futureTemplate = tf.compile('views$template.template');
-        return futureTemplate.chain((Template template) => template.render(viewData))
-                             .transform((String returnedString){
-                                rsp.outputStream.writeString(returnedString);
-                             });
-    }
     
     /** A base path for a given route */
-    void set route(String path) => _path = path; 
+    void set route(String path) { _path = path; } 
     
     String get route() => _path;
 }
