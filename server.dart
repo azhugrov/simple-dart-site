@@ -5,7 +5,9 @@ class Application {
     CrimsonHttpServer server = new CrimsonHttpServer();
     CrimsonModule module = new CrimsonModule(server);
     module.handlers
-          .addEndpoint(new ControllerRoute("/home", new HomeController()))
+          .addEndpoint(new Route("/", "GET", (req, res, data) {
+              return new HomeController().index(req, res, data);
+          }))
           .addEndpoint(new ControllerRoute("/aboutus", new AboutusController()))
           .addEndpoint(new ControllerRoute("/projects", new ProjectsController()))
           .addEndpoint(new ControllerRoute("/design", new DesignController()))

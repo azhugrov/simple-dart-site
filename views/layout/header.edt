@@ -6,9 +6,9 @@
 
         <div class="menuButton">
             {{ if (data["menu"] == "home") { }}
-            <a href="/home"> <img src="/img/m-main_a.gif" alt="main"/> </a>
+            <a href="/"> <img src="/img/m-main_a.gif" alt="main"/> </a>
 			{{ } else { }}
-			<a href="/home"> <img src="/img/m-main.gif" alt="main"/> </a>
+			<a href="/"> <img src="/img/m-main.gif" alt="main"/> </a>
 			{{ } }}
             <span class="menuSeparator"></span>
         </div>
