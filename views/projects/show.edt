@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Гиперком проект - проектирование зданий и сооружений. Архитектурные и строительные проекты современных зданий</title>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="/style.css" rel="stylesheet" type="text/css"/>
+    {{> ../layout/head.edt }}
+</head>
+
+<body>
+
+<div id="content">
+    <div id="centerdiv">
+
+        {{> ../layout/header.edt }}
+
+        <div class="title">
+            <img class='titleImg' src="/img/project01/project-title.gif" alt="title"/>
+
+            <div class="underLineP"><img class="vertLine" src="/img/vertical-line.gif" alt=""/></div>
+        </div>
+
+        <div class="projectInfo">
+            <p> Бизнес-центр по проспекту Дзержинского (2007), г. Минск </p>
+
+            <p> Архитектор: Хромов В.Н. </p>
+
+            <p> Общая площадь - 51700 м <sup>2</sup>, <br/>
+                в том числе</p>
+
+            <ul class="structureList">
+                <li> офисы - 41500 м<sup>2</sup></li>
+                <li> ресторан - 750 м<sup>2</sup></li>
+                <li> общественные помещения - 2000 м<sup>2</sup></li>
+                <li> подземная автостоянка на 160 м/м- 4800 м<sup>2</sup></li>
+            </ul>
+
+            <p> Две 24-х этажные башни-близнецы объединенные в единый 2-х уровневый комплекс общественным стилобатом и
+                переходом на уровне 19 этажей. </p>
+
+            <p> Кроме административных помещений, в здании, для обеспечения сотрудников и посетителей, планируется
+                расположить: в цокольном этаже - подземный гараж; на других этажах – кафе, служебные и технические
+                помещения.</p>
+
+            <p> Проектом предусматривается выполнение благоустройства и озеленения с посадкой газонов, кустарников и
+                цветников, установить малые архитектурные формы. </p>
+
+            <a href="/img/project01/project31.jpg" target="_blank"> <img src="/img/project01/project31.gif" alt="view7"/> </a>
+            <a href="/img/project01/project41.jpg" target="_blank"> <img class="rightPics" src="/img/project01/project41.gif" alt="view8"/> </a> <br/>
+            <a href="/img/project01/project32.jpg" target="_blank"> <img src="/img/project01/project32.gif" alt="view9"/> </a>
+            <a href="/img/project01/project42.jpg" target="_blank"> <img class="rightPics"src="/img/project01/project42.gif" alt="view10"/> </a> <br/>
+        </div>
+
+        <div class="projectImg">
+            <a href="/img/project01/project11.jpg" target="_blank"> <img src="/img/project01/project11.gif" alt="view1"/> </a>
+            <a href="/img/project01/project21.jpg" target="_blank"> <img src="/img/project01/project21.gif" alt="view2"/> </a> <br/>
+            <a href="/img/project01/project12.jpg" target="_blank"> <img src="/img/project01/project12.gif" alt="view3"/> </a>
+            <a href="/img/project01/project22.jpg" target="_blank"> <img src="/img/project01/project22.gif" alt="view4"/> </a> <br/>
+            <a href="/img/project01/project13.jpg" target="_blank"> <img src="/img/project01/project13.gif" alt="view5"/> </a>
+            <a href="/img/project01/project23.jpg" target="_blank"> <img src="/img/project01/project23.gif" alt="view6"/> </a> <br/>
+            <a href="/img/project01/project.jpg" target="_blank"> <img src="/img/project01/project.gif" alt=""/></a>
+        </div>
+    </div>
+</div>
+
+{{> ../layout/footer.edt }}
+
+</body>
+</html>

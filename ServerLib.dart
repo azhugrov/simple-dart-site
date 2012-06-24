@@ -5,6 +5,7 @@
 #import("packages/CrimsonHttp/handlers/HandlersLib.dart");
 #import("packages/log4dart/Lib.dart");
 #import("packages/edt/RuntimeLib.dart");
+#import("packages/mongo-dart/lib/mongo.dart");
 #source("server.dart");
 #source("controllers/restController.dart");
 #source("controllers/homeController.dart");
@@ -19,4 +20,5 @@
 #source("views/engineering/index.dart");
 #source("views/home/index.dart");
 #source("views/projects/index.dart");
+#source("views/projects/show.dart");
 #source("views/contacts/index.dart");
