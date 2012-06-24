@@ -41,11 +41,17 @@ class RestController implements AppController {
        String url; 
        if (req.path.length == _path.length) {
          url = "";
-       } else if (req.path.length > _path.length) {
-         url = req.path.substring(_path.length);  
-       } else {
+       }
+       else if (req.path.length == _path.length + 1 && req.path.endsWith("/")) {
+         url = "";         
+       }       
+       else if (req.path.length > _path.length + 1) {
+         url = req.path.substring(_path.length + 1);  
+       } 
+       else {
          throw new IllegalArgumentException("should not handle a given path: ${req.path}");
        }
+       print("rest part of url: ${url}");
        if (method == "GET") {
          if (intPattern.hasMatch(url)) {
            data["id"] = Math.parseInt(url);

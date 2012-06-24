@@ -7,7 +7,7 @@
     <meta name="description" content=""/>
     <meta name="keywords" content=""/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="/style.css" rel="stylesheet" type="text/css"/>
     {{> ../layout/head.edt }}
 </head>
 <body>
@@ -33,29 +33,29 @@
             </div>
 
         </div>
-        <img id="planImg" src="img/plan-picture.gif" alt="picture"/>
+        <img id="planImg" src="/img/plan-picture.gif" alt="picture"/>
 
         <div id="news">
 
-            <img class='titleImg' src="img/news-title.gif" alt="news"/>
+            <img class='titleImg' src="/img/news-title.gif" alt="news"/>
 
             <!--imitation button under the title-->
-            <div class="underLineN"><img class="vertLine" src="img/vertical-line.gif" alt=""/></div>
+            <div class="underLineN"><img class="vertLine" src="/img/vertical-line.gif" alt=""/></div>
 
-            <img class="previewImg" src="img/news1.gif" alt="news"/>
+            <img class="previewImg" src="/img/news1.gif" alt="news"/>
 
             <div class="newsBlock">
-                <img src="img/arrow.gif" alt=""/>
+                <img src="/img/arrow.gif" alt=""/>
                 <span class="date">26.10.2009 г.</span> <br/>
                 <span class="linknews">Начаты проектные работы по объекту «Реконструкция с приспособлением здания № 3 по ул. Комсомольской с размещением административных помещений и объектов торговли (незавершенное строительством капитальное строение)»</span>
             </div>
 
             <span class="newsSeparator"></span>
 
-            <img class="previewImg" src="img/news2.gif" alt="news"/>
+            <img class="previewImg" src="/img/news2.gif" alt="news"/>
 
             <div class="newsBlock">
-                <img src="img/arrow.gif" alt=""/>
+                <img src="/img/arrow.gif" alt=""/>
                 <span class="date">18.10.2009 г.</span> <br/>
                 <span class="linknews">Получено согласование КАиГ г.Минска по дальнейшему проектированию многоэтажного типового паркинга</span>
             </div>

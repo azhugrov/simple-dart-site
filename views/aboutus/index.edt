@@ -8,7 +8,7 @@
     <meta name="description" content=""/>
     <meta name="keywords" content=""/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="/style.css" rel="stylesheet" type="text/css"/>
     {{> ../layout/head.edt }}
 </head>
 
@@ -22,10 +22,10 @@
 
         <div id="AboutBlock">
 
-            <img class='titleImg' src="img/aboutus-title.gif" alt="news"/>
+            <img class='titleImg' src="/img/aboutus-title.gif" alt="news"/>
 
             <div class="underLineA">
-                <img class="vertLine" src="img/vertical-line.gif" alt=""/>
+                <img class="vertLine" src="/img/vertical-line.gif" alt=""/>
             </div>
 
             <div id="aboutTxt">
@@ -71,16 +71,16 @@
 
         <div class="title">
 
-            <img class='titleImg' src="img/licence-title.gif" alt="licences"/>
+            <img class='titleImg' src="/img/licence-title.gif" alt="licences"/>
 
             <div class="underLineA">
-                <img class="vertLine" src="img/vertical-line.gif" alt=""/>
+                <img class="vertLine" src="/img/vertical-line.gif" alt=""/>
             </div>
 
             <div id="licenceImg">
-                <a href="img/licence/licence1.jpg" target="_blank"> <img src="img/licence1.gif" alt="licence1"/> </a>
-                <a href="img/licence/licence2.jpg" target="_blank"> <img src="img/licence2.gif" alt="licence2"/></a>
-                <a href="img/licence/diplom.jpg" target="_blank"> <img src="img/diplom.gif" alt="diplom"/> </a>
+                <a href="/img/licence/licence1.jpg" target="_blank"> <img src="/img/licence1.gif" alt="licence1"/> </a>
+                <a href="/img/licence/licence2.jpg" target="_blank"> <img src="/img/licence2.gif" alt="licence2"/></a>
+                <a href="/img/licence/diplom.jpg" target="_blank"> <img src="/img/diplom.gif" alt="diplom"/> </a>
             </div>
         </div>
 
