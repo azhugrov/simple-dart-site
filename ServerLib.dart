@@ -12,6 +12,7 @@
 #source("controllers/aboutusController.dart");
 #source("controllers/projectsController.dart");
 #source("controllers/designController.dart");
+#source("controllers/designExamplesController.dart");
 #source("controllers/engineeringController.dart");
 #source("controllers/contactsController.dart");
 //add view templates
@@ -22,3 +23,8 @@
 #source("views/projects/index.dart");
 #source("views/projects/show.dart");
 #source("views/contacts/index.dart");
+#source("views/design/examples/bathroom.dart");
+#source("views/design/examples/bedroom.dart");
+#source("views/design/examples/kitchen.dart");
+#source("views/design/examples/livingroom.dart");
+#source("views/design/examples/nursery.dart");

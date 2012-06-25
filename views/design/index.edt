@@ -48,42 +48,42 @@
                 </div>
 
                 <div class="designBlock">
-                    <a href="/projects/livingroom.html" target="_blank"> <img class="previewImg" src="/img/livingRoom.gif"
+                    <a href="/design/livingroom"> <img class="previewImg" src="/img/livingRoom.gif"
                                                                              alt="living room"/> </a>
 
                     <div class="projectName">
-                        <a href="/projects/livingroom.html" target="_blank"> Гостиные </a>
+                        <a href="/design/livingroom"> Гостиные </a>
 
                     </div>
 
-                    <a href="/projects/bathroom.html" target="_blank"> <img class="previewImg" src="/img/bathroom.gif"
+                    <a href="/design/bathroom"> <img class="previewImg" src="/img/bathroom.gif"
                                                                            alt="bathroom"/> </a>
 
                     <div class="projectName">
-                        <a href="/projects/bathroom.html" target="_blank"> Ванные комнаты </a>
+                        <a href="/design/bathroom"> Ванные комнаты </a>
                     </div>
 
-                    <a href="/projects/nursery.html" target="_blank"> <img class="previewImg" src="/img/nursery.gif"
+                    <a href="/design/nursery"> <img class="previewImg" src="/img/nursery.gif"
                                                                           alt="nursery"/></a>
 
                     <div class="projectName">
-                        <a href="/projects/nursery.html" target="_blank"> Детские </a>
+                        <a href="/design/nursery"> Детские </a>
 
                     </div>
 
-                    <a href="/projects/kitchen.html" target="_blank"> <img class="previewImg" src="/img/kitchen.gif"
+                    <a href="/design/kitchen"> <img class="previewImg" src="/img/kitchen.gif"
                                                                           alt="kitchen"/></a>
 
                     <div class="projectName">
-                        <a href="/projects/kitchen.html" target="_blank">Кухни </a>
+                        <a href="/design/kitchen">Кухни </a>
 
                     </div>
 
-                    <a href="/projects/bedroom.html" target="_blank"> <img class="previewImg" src="/img/bedroom.gif"
+                    <a href="/design/bedroom"> <img class="previewImg" src="/img/bedroom.gif"
                                                                           alt="bedroom"/></a>
 
                     <div class="projectName">
-                        <a href="/projects/bedroom.html" target="_blank">Спальни </a>
+                        <a href="/design/bedroom">Спальни </a>
 
                     </div>
                 </div>

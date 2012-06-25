@@ -8,11 +8,16 @@ class Application {
           .addEndpoint(new Route("/", "GET", (req, res, data) {
               return new HomeController().index(req, res, data);
           }))
-          .addEndpoint(new ControllerRoute("/aboutus", new AboutusController()))
+          .addEndpoint(new ControllerRoute("/aboutus",  new AboutusController()))
           .addEndpoint(new ControllerRoute("/projects", new ProjectsController()))
-          .addEndpoint(new ControllerRoute("/design", new DesignController()))
-          .addEndpoint(new ControllerRoute("/engineering", new EngineeringController()))
-          .addEndpoint(new ControllerRoute("/contacts", new ContactsController()))
+          .addEndpoint(new Route("/design/livingroom", "GET", DesignExamplesController.livingroom))
+          .addEndpoint(new Route("/design/bathroom",   "GET", DesignExamplesController.bathroom))
+          .addEndpoint(new Route("/design/bedroom",    "GET", DesignExamplesController.bedroom))
+          .addEndpoint(new Route("/design/kitchen",    "GET", DesignExamplesController.kitchen))
+          .addEndpoint(new Route("/design/nursery",    "GET", DesignExamplesController.nursery))
+          .addEndpoint(new ControllerRoute("/design",       new DesignController()))
+          .addEndpoint(new ControllerRoute("/engineering",  new EngineeringController()))
+          .addEndpoint(new ControllerRoute("/contacts",     new ContactsController()))
           .addEndpoint(new StaticFile("./static"));
     server.modules["*"] = module;
     server.listen("127.0.0.1", 8080);

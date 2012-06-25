@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Гиперком проект - проектирование зданий и сооружений. Архитектурные и строительные проекты современных
+        зданий</title>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="/style.css" rel="stylesheet" type="text/css"/>
+    {{> ../../layout/head.edt }}
+</head>
+
+<body>
+
+<div id="content">
+    <div id="centerdiv">
+        {{> ../../layout/header.edt }}
+        <div class="title">
+            <img class='titleImg' src="/img/bedroom/bedroom-title.gif" alt="title"/>
+            <div class="underLineP"><img class="vertLine" src="/img/vertical-line.gif" alt=""/></div>
+        </div>
+
+        <div class="projectInfo">
+            <a href="/img/bedroom/bedroom1.jpg" target="_blank"> <img src="/img/bedroom/bedroom1.gif" alt="view1"/> </a>
+            <a href="/img/bedroom/bedroom2.jpg" target="_blank"> <img class="rightPics" src="/img/bedroom/bedroom2.gif" alt="view2"/> </a> <br/>
+        </div>
+    </div>
+</div>
+
+{{> ../../layout/footer.edt }}
+
+</body>
+</html>
