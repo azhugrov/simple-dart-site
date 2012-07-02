@@ -42,13 +42,13 @@ void main() {
                       <a href="/img/project01/project32.jpg" target="_blank"> <img src="/img/project01/project32.gif" alt="view9"/> </a>
                       <a href="/img/project01/project42.jpg" target="_blank"> <img class="rightPics"src="/img/project01/project42.gif" alt="view10"/> </a> <br/>                     
                      """,
-      "imgs": ["/img/project01/project11.jpg",
-               "/img/project01/project21.jpg",
-               "/img/project01/project12.jpg",
-               "/img/project01/project22.jpg",
-               "/img/project01/project13.jpg",
-               "/img/project01/project23.jpg",
-               "/img/project01/project.jpg"]      
+      "imgs": ["/img/project01/project11",
+               "/img/project01/project21",
+               "/img/project01/project12",
+               "/img/project01/project22",
+               "/img/project01/project13",
+               "/img/project01/project23",
+               "/img/project01/project"]      
     });
     projects.insert({
       "id": 2,
@@ -76,11 +76,11 @@ void main() {
                       <a href="/img/project14/project32.jpg" target="_blank"> <img src="/img/project14/project32.gif" alt="view5"/> </a>
                       <a href="/img/project14/project42.jpg" target="_blank"> <img class="rightPics" src="/img/project14/project42.gif" alt="view6"/> </a> <br/>
                     """,
-        "imgs": ["/img/project14/project11.jpg",
-                 "/img/project14/project21.jpg",
-                 "/img/project14/project12.jpg",
-                 "/img/project14/project22.jpg",
-                 "/img/project14/project13.jpg"]
+        "imgs": ["/img/project14/project11",
+                 "/img/project14/project21",
+                 "/img/project14/project12",
+                 "/img/project14/project22",
+                 "/img/project14/project13"]
     });
     projects.insert({
       "id": 3,
@@ -107,14 +107,14 @@ void main() {
                       <a href="/img/project03/project2.jpg" target="_blank"> <img src="/img/project03/project2.gif" alt="view10"/> </a>
                       <a href="/img/project03/project3.jpg" target="_blank"> <img src="/img/project03/project3.gif" alt="view11"/> </a> 
                      """,
-      "imgs": ["/img/project03/project11.jpg",
-               "/img/project03/project21.jpg",
-               "/img/project03/project12.jpg",
-               "/img/project03/project22.jpg",
-               "/img/project03/project13.jpg",
-               "/img/project03/project23.jpg",
-               "/img/project03/project14.jpg",
-               "/img/project03/project24.jpg"]      
+      "imgs": ["/img/project03/project11",
+               "/img/project03/project21",
+               "/img/project03/project12",
+               "/img/project03/project22",
+               "/img/project03/project13",
+               "/img/project03/project23",
+               "/img/project03/project14",
+               "/img/project03/project24"]      
     });
     projects.insert({
       "id": 4,
@@ -149,14 +149,14 @@ void main() {
                       <a href="/img/project04/project12.jpg" target="_blank"> <img src="/img/project04/project12.gif" alt="view11"/> </a> 
                       <a href="/img/project04/project22.jpg" target="_blank"> <img class="rightPics" src="/img/project04/project22.gif" alt="view12"/> </a>
                      """,
-      "imgs": ["/img/project04/project31.jpg",
-               "/img/project04/project41.jpg",
-               "/img/project04/project32.jpg",
-               "/img/project04/project42.jpg",
-               "/img/project04/project34.jpg",
-               "/img/project04/project43.jpg",
-               "/img/project04/project34.jpg",
-               "/img/project04/project44.jpg"]
+      "imgs": ["/img/project04/project31",
+               "/img/project04/project41",
+               "/img/project04/project32",
+               "/img/project04/project42",
+               "/img/project04/project34",
+               "/img/project04/project43",
+               "/img/project04/project34",
+               "/img/project04/project44"]
     });
     projects.insert({
       "id": 5,
@@ -187,7 +187,8 @@ void main() {
                         <a href="/img/project05/project2.jpg" target="_blank"> <img class="rightPics" src="/img/project05/project2.gif" alt="view2"/> </a>
                                  
                      """,
-       "imgs": ["/img/project05/project3.jpg", "/img/project05/project4.jpg"]
+       "imgs": ["/img/project05/project3", 
+                "/img/project05/project4"]
     });
     projects.insert({
       "id": 6,
@@ -216,9 +217,9 @@ void main() {
                       <a href="/img/project06/project31.jpg" target="_blank"> <img src="/img/project06/project31.gif" alt="view1"/> </a>
                       <a href="/img/project06/project41.jpg" target="_blank"> <img class="rightPics" src="/img/project06/project41.gif" alt="view2"/></a><br/>
                      """,
-      "imgs": ["/img/project06/project11.jpg",
-               "/img/project06/project21.jpg",
-               "/img/project06/project32.jpg"]
+      "imgs": ["/img/project06/project11",
+               "/img/project06/project21",
+               "/img/project06/project32"]
     });
     print("finished inserting project data...");
   }).then((dummy) {

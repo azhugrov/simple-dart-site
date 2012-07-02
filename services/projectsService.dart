@@ -20,11 +20,11 @@ class _ProjectsServiceImpl implements ProjectsService {
     return _mongoDb.collection("projects")
                    .findOne(selector: {"id": id})
                    .transform((Map projectData) {
-                      return new Project(projectData["id"], 
-                                         projectData["name"],
-                                         projectData["type"],
-                                         projectData["description"], 
-                                         projectData["imgs"]);                    
+                     return new Project(projectData["id"], 
+                                        projectData["name"],
+                                        projectData["type"],
+                                        projectData["description"], 
+                                        projectData["imgs"]);                    
                    });
   }
   

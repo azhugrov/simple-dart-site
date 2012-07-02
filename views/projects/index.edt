@@ -25,53 +25,53 @@
 
 <div class="projectBlock">
 
-    <a href="/projects/project01.html" target="_blank"> <img class="previewImg" src="/img/project11.gif"
+    <a href="/projects/1" target="_blank"> <img class="previewImg" src="/img/project11.gif"
                                                             alt="business centre"/> </a>
 
     <div class="projectName">
-        <a href="/projects/project01.html" target="_blank"> Бизнес-центр,<br/>пр.
+        <a href="/projects/1" target="_blank"> Бизнес-центр,<br/>пр.
             Дзержинского </a>
     </div>
 
-    <a href="/projects/project02.html" target="_blank"> <img class="previewImg" src="/img/project12.gif"
+    <a href="/projects/2" target="_blank"> <img class="previewImg" src="/img/project12.gif"
                                                             alt="business centre"/>  </a>
 
     <div class="projectName">
-        <a href="/projects/project02.html" target="_blank"> Бизнес-центр, <br/>ул. Немига, (I очередь) </a>
+        <a href="/projects/2" target="_blank"> Бизнес-центр, <br/>ул. Немига, (I очередь) </a>
 
     </div>
 
-    <a href="/projects/project14.html" target="_blank"> <img class="previewImg" src="/img/project15.gif"
+    <a href="/projects/3" target="_blank"> <img class="previewImg" src="/img/project15.gif"
                                                             alt="business centre"/>  </a>
 
     <div class="projectName">
-        <a href="/projects/project14.html" target="_blank"> Бизнес-центр, <br/>ул. Немига, (II очередь) </a>
+        <a href="/projects/3" target="_blank"> Бизнес-центр, <br/>ул. Немига, (II очередь) </a>
 
     </div>
 
-    <a href="/projects/project03.html" target="_blank"> <img class="previewImg" src="/img/project13.gif"
+    <a href="/projects/4" target="_blank"> <img class="previewImg" src="/img/project13.gif"
                                                             alt="business centre"/> </a>
 
     <div class="projectName">
-        <a href="/projects/project03.html" target="_blank">Бизнес-центр<br/>"Порт",
+        <a href="/projects/4" target="_blank">Бизнес-центр<br/>"Порт",
             (I очередь)</a>
 
     </div>
 
-    <a href="/projects/project04.html" target="_blank"> <img class="previewImg" src="/img/project14.gif"
+    <a href="/projects/5" target="_blank"> <img class="previewImg" src="/img/project14.gif"
                                                             alt="business centre"/></a>
 
     <div class="projectName">
-        <a href="/projects/project04.html" target="_blank">Бизнес-центр<br/>"Порт",
+        <a href="/projects/5" target="_blank">Бизнес-центр<br/>"Порт",
             (II очередь) </a>
 
     </div>
 
-    <a href="/projects/project15.html" target="_blank"> <img class="previewImg" src="/img/project16.gif"
+    <a href="/projects/6" target="_blank"> <img class="previewImg" src="/img/project16.gif"
                                                             alt="business centre"/></a>
 
     <div class="projectName">
-        <a href="/projects/project15.html" target="_blank">Бизнес-центр<br/>"Итера" </a>
+        <a href="/projects/6" target="_blank">Бизнес-центр<br/>"Итера" </a>
 
     </div>
 
