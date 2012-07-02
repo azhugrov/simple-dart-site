@@ -1,49 +1,25 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-    <title>Гиперком проект - проектирование зданий и сооружений. Архитектурные и строительные проекты современных
-        зданий</title>
-    <meta name="description" content=""/>
-    <meta name="keywords" content=""/>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link href="/style.css" rel="stylesheet" type="text/css"/>
-    {{> ../../layout/head.edt }}
-</head>
-
-<body>
-
-    <div id="content">
-        <div id="centerdiv">
-            {{> ../../layout/header.edt }}
-            <div class="title">
-                <img class='titleImg' src="/img/kitchen/kitchen-title.gif" alt="title"/>
-                <div class="underLineP"><img class="vertLine" src="/img/vertical-line.gif" alt=""/></div>
-            </div>
-            <div class="projectInfo">
-                <a href="/img/kitchen/kitchen5.jpg" target="_blank"> <img src="/img/kitchen/kitchen5.gif" alt="view5"/> </a>
-                <a href="/img/kitchen/kitchen6.jpg" target="_blank"> <img class="rightPics"
-                                                                            src="/img/kitchen/kitchen6.gif"
-                                                                            alt="view6"/> </a> <br/>
-                <a href="/img/kitchen/kitchen7.jpg" target="_blank"> <img src="/img/kitchen/kitchen7.gif"
-                                                                            alt="view7"/> </a>
-                <a href="/img/kitchen/kitchen4.jpg" target="_blank"> <img class="rightPics"
-                                                                            src="/img/kitchen/kitchen4.gif"
-                                                                            alt="view4"/> </a> <br/>
-            </div>
-            <div class="projectImg">
-                <a href="/img/kitchen/kitchen1.jpg" target="_blank"> <img src="/img/kitchen/kitchen1.gif"
-                                                                            alt="view1"/> </a>
-                <a href="/img/kitchen/kitchen2.jpg" target="_blank"> <img class="rightPics" src="/img/kitchen/kitchen2.gif"
-                                                                            alt="view2"/> </a> <br/>
-                <a href="/img/kitchen/kitchen3.jpg" target="_blank"> <img src="/img/kitchen/kitchen3.gif"
-                                                                            alt="view3"/> </a>
-            </div>
-        </div>
-
-    </div>
-    {{> ../../layout/footer.edt }}
-
-</body>
-</html>
+{{~ ../../layout/layout.edl }}
+{{~ content }}
+<div class="title">
+    <img class='titleImg' src="/img/kitchen/kitchen-title.gif" alt="title"/>
+    <div class="underLineP"><img class="vertLine" src="/img/vertical-line.gif" alt=""/></div>
+</div>
+<div class="projectInfo">
+    <a href="/img/kitchen/kitchen5.jpg" target="_blank"> <img src="/img/kitchen/kitchen5.gif" alt="view5"/> </a>
+    <a href="/img/kitchen/kitchen6.jpg" target="_blank"> <img class="rightPics"
+                                                                src="/img/kitchen/kitchen6.gif"
+                                                                alt="view6"/> </a> <br/>
+    <a href="/img/kitchen/kitchen7.jpg" target="_blank"> <img src="/img/kitchen/kitchen7.gif"
+                                                                alt="view7"/> </a>
+    <a href="/img/kitchen/kitchen4.jpg" target="_blank"> <img class="rightPics"
+                                                                src="/img/kitchen/kitchen4.gif"
+                                                                alt="view4"/> </a> <br/>
+</div>
+<div class="projectImg">
+    <a href="/img/kitchen/kitchen1.jpg" target="_blank"> <img src="/img/kitchen/kitchen1.gif"
+                                                                alt="view1"/> </a>
+    <a href="/img/kitchen/kitchen2.jpg" target="_blank"> <img class="rightPics" src="/img/kitchen/kitchen2.gif"
+                                                                alt="view2"/> </a> <br/>
+    <a href="/img/kitchen/kitchen3.jpg" target="_blank"> <img src="/img/kitchen/kitchen3.gif"
+                                                                alt="view3"/> </a>
+</div>

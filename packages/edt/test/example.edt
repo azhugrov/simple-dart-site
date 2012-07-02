@@ -1,14 +1,13 @@
-<html>
- <head>
- 	<title>A sample template</title>
- <head>
- <body>
- 	{{> include.edt }}
+{{~ layout.ledt }}
+{{~ title}}
+    Here a title content
+{{~ head }}
+    <sript type="text/javascript" src=""></script>
+{{~ content}}
+ 	{{> include.iedt }}
  	<div>
  	   {{ if (data["condition"]) { }}
  	   		<span>{{=data["one"]}}</span>
  	   		<span>{{-data["second"]}}</span>
  	   {{ } }} 	
  	</div>
- </body>
-</html>

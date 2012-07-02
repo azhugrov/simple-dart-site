@@ -1,69 +1,44 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-    <title>Гиперком проект - проектирование зданий и сооружений. Архитектурные и строительные проекты современных
-        зданий</title>
-    <meta name="description" content=""/>
-    <meta name="keywords" content=""/>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link href="/style.css" rel="stylesheet" type="text/css"/>
-    {{> ../../layout/head.edt }}
-</head>
-
-<body>
-
-    <div id="content">
-        <div id="centerdiv">
-
-            {{> ../../layout/header.edt }}
-
-            <div class="title">
-                <img class='titleImg' src="/img/livingroom/livingroom-title.gif" alt="title"/>
-                <div class="underLineP"><img class="vertLine" src="/img/vertical-line.gif" alt=""/></div>
-            </div>
+{{~ ../../layout/layout.edl }}
+{{~ content }}
+<div class="title">
+    <img class='titleImg' src="/img/livingroom/livingroom-title.gif" alt="title"/>
+    <div class="underLineP"><img class="vertLine" src="/img/vertical-line.gif" alt=""/></div>
+</div>
 
 
-            <div class="projectInfo">
+<div class="projectInfo">
 
 
-                <a href="/img/livingroom/livingroom1.jpg" target="_blank"> <img src="/img/livingroom/livingroom1.gif"
-                                                                                  alt="view1"/> </a>
-                <a href="/img/livingroom/livingroom2.jpg" target="_blank"> <img class="rightPics"
-                                                                                  src="/img/livingroom/livingroom2.gif"
-                                                                                  alt="view2"/> </a> <br/>
-                <a href="/img/livingroom/livingroom3.jpg" target="_blank"> <img src="/img/livingroom/livingroom3.gif"
-                                                                                  alt="view3"/> </a>
-                <a href="/img/livingroom/livingroom4.jpg" target="_blank"> <img class="rightPics"
-                                                                                  src="/img/livingroom/livingroom4.gif"
-                                                                                  alt="view4"/> </a> <br/>
-                <a href="/img/livingroom/livingroom5.jpg" target="_blank"> <img class="rightPics"
-                                                                                  src="/img/livingroom/livingroom5.gif"
-                                                                                  alt="view5"/> </a>
-                <a href="/img/livingroom/livingroom6.jpg" target="_blank"> <img src="/img/livingroom/livingroom6.gif"
-                                                                                  alt="view6"/> </a> <br/>
-                <a href="/img/livingroom/livingroom8.jpg" target="_blank"> <img class="rightPics"
-                                                                                  src="/img/livingroom/livingroom8.gif"
-                                                                                  alt="view7"/> </a>
-            </div>
+    <a href="/img/livingroom/livingroom1.jpg" target="_blank"> <img src="/img/livingroom/livingroom1.gif"
+                                                                      alt="view1"/> </a>
+    <a href="/img/livingroom/livingroom2.jpg" target="_blank"> <img class="rightPics"
+                                                                      src="/img/livingroom/livingroom2.gif"
+                                                                      alt="view2"/> </a> <br/>
+    <a href="/img/livingroom/livingroom3.jpg" target="_blank"> <img src="/img/livingroom/livingroom3.gif"
+                                                                      alt="view3"/> </a>
+    <a href="/img/livingroom/livingroom4.jpg" target="_blank"> <img class="rightPics"
+                                                                      src="/img/livingroom/livingroom4.gif"
+                                                                      alt="view4"/> </a> <br/>
+    <a href="/img/livingroom/livingroom5.jpg" target="_blank"> <img class="rightPics"
+                                                                      src="/img/livingroom/livingroom5.gif"
+                                                                      alt="view5"/> </a>
+    <a href="/img/livingroom/livingroom6.jpg" target="_blank"> <img src="/img/livingroom/livingroom6.gif"
+                                                                      alt="view6"/> </a> <br/>
+    <a href="/img/livingroom/livingroom8.jpg" target="_blank"> <img class="rightPics"
+                                                                      src="/img/livingroom/livingroom8.gif"
+                                                                      alt="view7"/> </a>
+</div>
 
-            <div class="projectImg">
-                <a href="/img/livingroom/livingroom7.jpg" target="_blank"> <img src="/img/livingroom/livingroom7.gif"
-                                                                                  alt="view8"/> </a>
-                <a href="/img/livingroom/livingroom11.jpg" target="_blank"> <img class="rightPics"
-                                                                                   src="/img/livingroom/livingroom11.gif"
-                                                                                   alt="view9"/> </a> <br/>
+<div class="projectImg">
+    <a href="/img/livingroom/livingroom7.jpg" target="_blank"> <img src="/img/livingroom/livingroom7.gif"
+                                                                      alt="view8"/> </a>
+    <a href="/img/livingroom/livingroom11.jpg" target="_blank"> <img class="rightPics"
+                                                                       src="/img/livingroom/livingroom11.gif"
+                                                                       alt="view9"/> </a> <br/>
 
-                <a href="/img/livingroom/livingroom9.jpg" target="_blank"> <img src="/img/livingroom/livingroom9.gif"
-                                                                                  alt="view10"/> </a>
-                <a href="/img/livingroom/livingroom10.jpg" target="_blank"> <img class="rightPics"
-                                                                                   src="/img/livingroom/livingroom10.gif"
-                                                                                   alt="view11"/> </a> <br/>
-            </div>
-        </div>
-    </div>
-    {{> ../../layout/footer.edt }}
-
-</body>
-</html>
+    <a href="/img/livingroom/livingroom9.jpg" target="_blank"> <img src="/img/livingroom/livingroom9.gif"
+                                                                      alt="view10"/> </a>
+    <a href="/img/livingroom/livingroom10.jpg" target="_blank"> <img class="rightPics"
+                                                                       src="/img/livingroom/livingroom10.gif"
+                                                                       alt="view11"/> </a> <br/>
+</div>

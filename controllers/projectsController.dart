@@ -1,5 +1,9 @@
 class ProjectsController extends RestController {
   
+  ProjectsService _projectsService;
+  
+  ProjectsController(this._projectsService);
+  
   Future index(HttpRequest req, HttpResponse rsp, CrimsonData data) {
     Map viewData = {
       "image": "/img/future03.jpg",

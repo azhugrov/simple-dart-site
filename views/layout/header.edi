@@ -1,0 +1,67 @@
+<div id="top"><img src="/img/logo.gif" alt="logo"/></div>
+
+<div class="menuBlock">
+
+    <div id="menu">
+
+        <div class="menuButton">
+            {{ if (data["menu"] == "home") { }}
+            <a href="/"> <img src="/img/m-main_a.gif" alt="main"/> </a>
+			{{ } else { }}
+			<a href="/"> <img src="/img/m-main.gif" alt="main"/> </a>
+			{{ } }}
+            <span class="menuSeparator"></span>
+        </div>
+
+        <div class="menuButton">
+            {{ if (data["menu"] == "aboutus") { }}
+            <a href="/aboutus"> <img src="/img/m-aboutus_a.gif" alt="aboutus"/> </a>
+			{{ } else { }}
+			<a href="/aboutus"> <img src="/img/m-aboutus.gif" alt="aboutus"/> </a>
+			{{ } }}
+            <span class="menuSeparator"></span>
+        </div>
+
+        <div class="menuButton">
+            {{ if (data["menu"] == "projects") { }}
+            <a href="/projects"> <img src="/img/m-projects_a.gif" alt="projects"/> </a>
+            {{ } else { }}
+            <a href="/projects"> <img src="/img/m-projects.gif" alt="projects"/> </a>
+            {{ } }}
+            <span class="menuSeparator"></span>
+        </div>
+
+        <div class="menuButton">
+            {{ if(data["menu"] == "design") { }}
+            <a href="/design"> <img src="/img/m-design_a.gif" alt="design"/> </a>
+            {{ } else { }}
+            <a href="/design"> <img src="/img/m-design.gif" alt="design"/> </a>
+            {{ } }}
+            <span class="menuSeparator"></span>
+        </div>
+
+        <div class="menuButton">
+            {{ if(data["menu"] == "engineering") { }}
+            <a href="/engineering"> <img src="/img/m-engeneering_a.gif" alt="engeneering"/> </a>
+            {{ } else { }}
+            <a href="/engineering"> <img src="/img/m-engeneering.gif" alt="engeneering"/> </a>
+            {{ } }}
+            <span class="menuSeparator"></span>
+        </div>
+
+        <div class="menuButton">
+            {{ if (data["menu"] == "contacts") { }}
+            <a href="/contacts"> <img src="/img/m-contacts_a.gif" alt="contacts"/> </a>
+        	{{ } else { }}
+        	<a href="/contacts"> <img src="/img/m-contacts.gif" alt="contacts"/> </a>
+        	{{ } }}
+        </div>
+
+    </div>
+
+    <img class="centerCollage" src="{{= data["image"] }}" alt="future"/>
+
+    <!--design block on the right border -->
+    <span id="right"></span>
+
+</div>

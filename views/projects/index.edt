@@ -1,192 +1,166 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-    <title>Гиперком проект - проектирование зданий и сооружений. Архитектурные и строительные проекты современных
-        зданий</title>
-    <meta name="description" content=""/>
-    <meta name="keywords" content=""/>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link href="/style.css" rel="stylesheet" type="text/css"/>
-    {{> ../layout/head.edt }}
-</head>
-
-<body>
-
-<div id="content">
-    <div id="centerdiv">
-
-        {{> ../layout/header.edt }}
-
-        <div class="title">
-            <img class='titleImg' src="/img/bisnesCenter-title.gif" alt="business centre"/>
-
-            <div class="underLineP"><img class="vertLine" src="/img/vertical-line.gif" alt=""/></div>
-        </div>
-
-        <div class="title">
-            <img class='titleImg' src="/img/salesCenter-title.gif" alt="shopping center"/>
-
-            <div class="underLineP"><img class="vertLine" src="/img/vertical-line.gif" alt=""/></div>
-
-        </div>
-
-        <div class="title">
-            <img class='titleImg' src="/img/residArea-title.gif" alt="domestic building"/>
-
-            <div class="underLineP"><img class="vertLine" src="/img/vertical-line.gif" alt=""/></div>
-
-        </div>
-
-
-        <!--business centres block-->
-
-        <div class="projectBlock">
-
-            <a href="/projects/project01.html" target="_blank"> <img class="previewImg" src="/img/project11.gif"
-                                                                    alt="business centre"/> </a>
-
-            <div class="projectName">
-                <a href="/projects/project01.html" target="_blank"> Бизнес-центр,<br/>пр.
-                    Дзержинского </a>
-            </div>
-
-            <a href="/projects/project02.html" target="_blank"> <img class="previewImg" src="/img/project12.gif"
-                                                                    alt="business centre"/>  </a>
-
-            <div class="projectName">
-                <a href="/projects/project02.html" target="_blank"> Бизнес-центр, <br/>ул. Немига, (I очередь) </a>
-
-            </div>
-
-            <a href="/projects/project14.html" target="_blank"> <img class="previewImg" src="/img/project15.gif"
-                                                                    alt="business centre"/>  </a>
-
-            <div class="projectName">
-                <a href="/projects/project14.html" target="_blank"> Бизнес-центр, <br/>ул. Немига, (II очередь) </a>
-
-            </div>
-
-            <a href="/projects/project03.html" target="_blank"> <img class="previewImg" src="/img/project13.gif"
-                                                                    alt="business centre"/> </a>
-
-            <div class="projectName">
-                <a href="/projects/project03.html" target="_blank">Бизнес-центр<br/>"Порт",
-                    (I очередь)</a>
-
-            </div>
-
-            <a href="/projects/project04.html" target="_blank"> <img class="previewImg" src="/img/project14.gif"
-                                                                    alt="business centre"/></a>
-
-            <div class="projectName">
-                <a href="/projects/project04.html" target="_blank">Бизнес-центр<br/>"Порт",
-                    (II очередь) </a>
-
-            </div>
-
-            <a href="/projects/project15.html" target="_blank"> <img class="previewImg" src="/img/project16.gif"
-                                                                    alt="business centre"/></a>
-
-            <div class="projectName">
-                <a href="/projects/project15.html" target="_blank">Бизнес-центр<br/>"Итера" </a>
-
-            </div>
-
-
-        </div>
-
-        <!--shopping centeres block-->
-
-        <div class="projectBlock">
-            <a href="/projects/project12.html" target="_blank"> <img class="previewImg" src="/img/project21.gif"
-                                                                    alt="shopping centere"/> </a>
-
-
-            <div class="projectName">
-                <a href="/projects/project12.html" target="_blank"> Торгово-развлекательный,<br/>центр, г. Бобруйск </a>
-
-            </div>
-
-            <a href="/projects/project07.html" target="_blank"> <img class="previewImg" src="/img/project22.gif"
-                                                                    alt="shopping centere"/> </a>
-
-            <div class="projectName">
-                <a href="/projects/project07.html" target="_blank"> Торгово-развлекательный<br/>центр
-                    "Новинки" </a>
-            </div>
-
-
-            <a href="/projects/project11.html" target="_blank"> <img class="previewImg" src="/img/project23.gif"
-                                                                    alt="shopping centere"/></a>
-
-            <div class="projectName">
-                <a href="/projects/project11.html" target="_blank">Торгово-развлекательный<br/>центр
-                    "Пекин" </a>
-
-            </div>
-
-            <a href="/projects/project13.html" target="_blank"> <img class="previewImg" src="/img/project24.gif"
-                                                                    alt="shopping centere"/></a>
-
-            <div class="projectName">
-                <a href="/projects/project13.html" target="_blank">Торгово-развлекательный<br/>центр,
-                    г.Брест </a>
-
-            </div>
-
-
-        </div>
-
-        <!--domestic buildings block-->
-
-        <div class="projectBlock">
-
-            <a href="/projects/project05.html" target="_blank"> <img class="previewImg" src="/img/project31.gif"
-                                                                    alt="domestic building"/> </a>
-
-            <div class="projectName">
-                <a href="/projects/project05.html" target="_blank"> Жилой дом,<br/>Горный
-                    переулок</a>
-            </div>
-
-            <a href="/projects/project06.html" target="_blank"> <img class="previewImg" src="/img/project32.gif"
-                                                                    alt="domestic building"/> </a>
-
-            <div class="projectName">
-                <a href="/projects/project06.html" target="_blank"> Жилой дом,<br/> ул.
-                    Топографическая </a>
-            </div>
-
-            <a href="/projects/project09.html" target="_blank"> <img class="previewImg" src="/img/project33.gif"
-                                                                    alt="domestic building"/> </a>
-
-            <div class="projectName">
-                <a href="/projects/project09.html" target="_blank"> Жилой дом,<br/> микрорайон Дружба </a>
-
-            </div>
-
-
-            <a href="/projects/project08.html" target="_blank"> <img class="previewImg" src="/img/project34.gif"
-                                                                    alt="domestic building"/> </a>
-
-            <div class="projectName">
-                <a href="/projects/project08.html" target="_blank"> Жилой дом,<br/>район Лебяжий </a>
-            </div>
-
-
-            <a href="/projects/project10.html" target="_blank"> <img class="previewImg" src="/img/project35.gif"
-                                                                    alt="domestic building"/> </a>
-
-            <div class="projectName">
-                <a href="/projects/project10.html" target="_blank"> Жилой дом,<br/>ул. В. Хоружей </a>
-            </div>
-        </div>
-    </div>
+{{~ ../layout/layout.edl }}
+{{~ content }}
+<div class="title">
+    <img class='titleImg' src="/img/bisnesCenter-title.gif" alt="business centre"/>
+
+    <div class="underLineP"><img class="vertLine" src="/img/vertical-line.gif" alt=""/></div>
 </div>
 
-{{> ../layout/footer.edt }}
+<div class="title">
+    <img class='titleImg' src="/img/salesCenter-title.gif" alt="shopping center"/>
 
-</body>
-</html>
+    <div class="underLineP"><img class="vertLine" src="/img/vertical-line.gif" alt=""/></div>
+
+</div>
+
+<div class="title">
+    <img class='titleImg' src="/img/residArea-title.gif" alt="domestic building"/>
+
+    <div class="underLineP"><img class="vertLine" src="/img/vertical-line.gif" alt=""/></div>
+
+</div>
+
+
+<!--business centres block-->
+
+<div class="projectBlock">
+
+    <a href="/projects/project01.html" target="_blank"> <img class="previewImg" src="/img/project11.gif"
+                                                            alt="business centre"/> </a>
+
+    <div class="projectName">
+        <a href="/projects/project01.html" target="_blank"> Бизнес-центр,<br/>пр.
+            Дзержинского </a>
+    </div>
+
+    <a href="/projects/project02.html" target="_blank"> <img class="previewImg" src="/img/project12.gif"
+                                                            alt="business centre"/>  </a>
+
+    <div class="projectName">
+        <a href="/projects/project02.html" target="_blank"> Бизнес-центр, <br/>ул. Немига, (I очередь) </a>
+
+    </div>
+
+    <a href="/projects/project14.html" target="_blank"> <img class="previewImg" src="/img/project15.gif"
+                                                            alt="business centre"/>  </a>
+
+    <div class="projectName">
+        <a href="/projects/project14.html" target="_blank"> Бизнес-центр, <br/>ул. Немига, (II очередь) </a>
+
+    </div>
+
+    <a href="/projects/project03.html" target="_blank"> <img class="previewImg" src="/img/project13.gif"
+                                                            alt="business centre"/> </a>
+
+    <div class="projectName">
+        <a href="/projects/project03.html" target="_blank">Бизнес-центр<br/>"Порт",
+            (I очередь)</a>
+
+    </div>
+
+    <a href="/projects/project04.html" target="_blank"> <img class="previewImg" src="/img/project14.gif"
+                                                            alt="business centre"/></a>
+
+    <div class="projectName">
+        <a href="/projects/project04.html" target="_blank">Бизнес-центр<br/>"Порт",
+            (II очередь) </a>
+
+    </div>
+
+    <a href="/projects/project15.html" target="_blank"> <img class="previewImg" src="/img/project16.gif"
+                                                            alt="business centre"/></a>
+
+    <div class="projectName">
+        <a href="/projects/project15.html" target="_blank">Бизнес-центр<br/>"Итера" </a>
+
+    </div>
+
+
+</div>
+
+<!--shopping centeres block-->
+
+<div class="projectBlock">
+    <a href="/projects/project12.html" target="_blank"> <img class="previewImg" src="/img/project21.gif"
+                                                            alt="shopping centere"/> </a>
+
+
+    <div class="projectName">
+        <a href="/projects/project12.html" target="_blank"> Торгово-развлекательный,<br/>центр, г. Бобруйск </a>
+
+    </div>
+
+    <a href="/projects/project07.html" target="_blank"> <img class="previewImg" src="/img/project22.gif"
+                                                            alt="shopping centere"/> </a>
+
+    <div class="projectName">
+        <a href="/projects/project07.html" target="_blank"> Торгово-развлекательный<br/>центр
+            "Новинки" </a>
+    </div>
+
+
+    <a href="/projects/project11.html" target="_blank"> <img class="previewImg" src="/img/project23.gif"
+                                                            alt="shopping centere"/></a>
+
+    <div class="projectName">
+        <a href="/projects/project11.html" target="_blank">Торгово-развлекательный<br/>центр
+            "Пекин" </a>
+
+    </div>
+
+    <a href="/projects/project13.html" target="_blank"> <img class="previewImg" src="/img/project24.gif"
+                                                            alt="shopping centere"/></a>
+
+    <div class="projectName">
+        <a href="/projects/project13.html" target="_blank">Торгово-развлекательный<br/>центр,
+            г.Брест </a>
+
+    </div>
+
+
+</div>
+
+<!--domestic buildings block-->
+
+<div class="projectBlock">
+
+    <a href="/projects/project05.html" target="_blank"> <img class="previewImg" src="/img/project31.gif"
+                                                            alt="domestic building"/> </a>
+
+    <div class="projectName">
+        <a href="/projects/project05.html" target="_blank"> Жилой дом,<br/>Горный
+            переулок</a>
+    </div>
+
+    <a href="/projects/project06.html" target="_blank"> <img class="previewImg" src="/img/project32.gif"
+                                                            alt="domestic building"/> </a>
+
+    <div class="projectName">
+        <a href="/projects/project06.html" target="_blank"> Жилой дом,<br/> ул.
+            Топографическая </a>
+    </div>
+
+    <a href="/projects/project09.html" target="_blank"> <img class="previewImg" src="/img/project33.gif"
+                                                            alt="domestic building"/> </a>
+
+    <div class="projectName">
+        <a href="/projects/project09.html" target="_blank"> Жилой дом,<br/> микрорайон Дружба </a>
+
+    </div>
+
+
+    <a href="/projects/project08.html" target="_blank"> <img class="previewImg" src="/img/project34.gif"
+                                                            alt="domestic building"/> </a>
+
+    <div class="projectName">
+        <a href="/projects/project08.html" target="_blank"> Жилой дом,<br/>район Лебяжий </a>
+    </div>
+
+
+    <a href="/projects/project10.html" target="_blank"> <img class="previewImg" src="/img/project35.gif"
+                                                            alt="domestic building"/> </a>
+
+    <div class="projectName">
+        <a href="/projects/project10.html" target="_blank"> Жилой дом,<br/>ул. В. Хоружей </a>
+    </div>
+</div>

@@ -7,6 +7,11 @@
 #import("packages/edt/RuntimeLib.dart");
 #import("packages/mongo-dart/lib/mongo.dart");
 #source("server.dart");
+//add models
+#source("models/project.dart");
+//add services
+#source("services/projectsService.dart");
+//add controllers
 #source("controllers/restController.dart");
 #source("controllers/homeController.dart");
 #source("controllers/aboutusController.dart");
