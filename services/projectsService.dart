@@ -32,7 +32,7 @@ class _ProjectsServiceImpl implements ProjectsService {
     var projects = <Project>[];
     var completer = new Completer();
     var transformFuture = _mongoDb.collection("projects")
-            .find(selector: {"type": type}).each(onData(Map projectData) {
+            .find(selector: {"type": type}, orderBy: {"id": 1}).each(onData(Map projectData) {
                  projects.add(new Project(projectData["id"], 
                                           projectData["name"], 
                                           projectData["type"],

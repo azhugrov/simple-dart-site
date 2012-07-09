@@ -9,9 +9,20 @@ class ProjectsController extends RestController {
       "image": "/img/future03.jpg",
       "menu": "projects"
     };
-    var view = new D_sellstome_hypcomm_site_views_projects_index_edt();
-    view.render(viewData, rsp.outputStream);
-    return null; 
+    return _projectsService.findAllForType(ProjectType.BUSINESS_CENTER)
+                           .chain((businessCenters) {
+                            viewData["businessCenters"] = businessCenters;                      
+                            return _projectsService.findAllForType(ProjectType.ENTERTAINMENT_CENTER);
+                           })
+                           .chain((entertainmentCenters) {
+                            viewData["entertainmentCenters"] = entertainmentCenters;
+                            return _projectsService.findAllForType(ProjectType.DOMESTIC);
+                           }).transform((domestic) {
+                            viewData["domestic"] = domestic;
+                            var view = new D_sellstome_hypcomm_site_views_projects_index_edt();
+                            view.render(viewData, rsp.outputStream);
+                            return data;                      
+                           });
   }
   
   Future show(HttpRequest req, HttpResponse rsp, CrimsonData data) {

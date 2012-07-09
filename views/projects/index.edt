@@ -25,53 +25,53 @@
 
 <div class="projectBlock">
 
-    <a href="/projects/1" target="_blank"> <img class="previewImg" src="/img/project11.gif"
+    <a href="/projects/1" > <img class="previewImg" src="/img/project11.gif"
                                                             alt="business centre"/> </a>
 
     <div class="projectName">
-        <a href="/projects/1" target="_blank"> Бизнес-центр,<br/>пр.
+        <a href="/projects/1" > Бизнес-центр,<br/>пр.
             Дзержинского </a>
     </div>
 
-    <a href="/projects/2" target="_blank"> <img class="previewImg" src="/img/project12.gif"
+    <a href="/projects/2" > <img class="previewImg" src="/img/project12.gif"
                                                             alt="business centre"/>  </a>
 
     <div class="projectName">
-        <a href="/projects/2" target="_blank"> Бизнес-центр, <br/>ул. Немига, (I очередь) </a>
+        <a href="/projects/2" > Бизнес-центр, <br/>ул. Немига, (I очередь) </a>
 
     </div>
 
-    <a href="/projects/3" target="_blank"> <img class="previewImg" src="/img/project15.gif"
+    <a href="/projects/3" > <img class="previewImg" src="/img/project15.gif"
                                                             alt="business centre"/>  </a>
 
     <div class="projectName">
-        <a href="/projects/3" target="_blank"> Бизнес-центр, <br/>ул. Немига, (II очередь) </a>
+        <a href="/projects/3" > Бизнес-центр, <br/>ул. Немига, (II очередь) </a>
 
     </div>
 
-    <a href="/projects/4" target="_blank"> <img class="previewImg" src="/img/project13.gif"
+    <a href="/projects/4" > <img class="previewImg" src="/img/project13.gif"
                                                             alt="business centre"/> </a>
 
     <div class="projectName">
-        <a href="/projects/4" target="_blank">Бизнес-центр<br/>"Порт",
+        <a href="/projects/4" >Бизнес-центр<br/>"Порт",
             (I очередь)</a>
 
     </div>
 
-    <a href="/projects/5" target="_blank"> <img class="previewImg" src="/img/project14.gif"
+    <a href="/projects/5" > <img class="previewImg" src="/img/project14.gif"
                                                             alt="business centre"/></a>
 
     <div class="projectName">
-        <a href="/projects/5" target="_blank">Бизнес-центр<br/>"Порт",
+        <a href="/projects/5" >Бизнес-центр<br/>"Порт",
             (II очередь) </a>
 
     </div>
 
-    <a href="/projects/6" target="_blank"> <img class="previewImg" src="/img/project16.gif"
+    <a href="/projects/6" > <img class="previewImg" src="/img/project16.gif"
                                                             alt="business centre"/></a>
 
     <div class="projectName">
-        <a href="/projects/6" target="_blank">Бизнес-центр<br/>"Итера" </a>
+        <a href="/projects/6" >Бизнес-центр<br/>"Итера" </a>
 
     </div>
 
@@ -81,38 +81,38 @@
 <!--shopping centeres block-->
 
 <div class="projectBlock">
-    <a href="/projects/project12.html" target="_blank"> <img class="previewImg" src="/img/project21.gif"
+    <a href="/projects/7" target="_blank"> <img class="previewImg" src="/img/project21.gif"
                                                             alt="shopping centere"/> </a>
 
 
     <div class="projectName">
-        <a href="/projects/project12.html" target="_blank"> Торгово-развлекательный,<br/>центр, г. Бобруйск </a>
+        <a href="/projects/7" target="_blank"> Торгово-развлекательный,<br/>центр, г. Бобруйск </a>
 
     </div>
 
-    <a href="/projects/project07.html" target="_blank"> <img class="previewImg" src="/img/project22.gif"
+    <a href="/projects/8" target="_blank"> <img class="previewImg" src="/img/project22.gif"
                                                             alt="shopping centere"/> </a>
 
     <div class="projectName">
-        <a href="/projects/project07.html" target="_blank"> Торгово-развлекательный<br/>центр
+        <a href="/projects/8" target="_blank"> Торгово-развлекательный<br/>центр
             "Новинки" </a>
     </div>
 
 
-    <a href="/projects/project11.html" target="_blank"> <img class="previewImg" src="/img/project23.gif"
+    <a href="/projects/9" target="_blank"> <img class="previewImg" src="/img/project23.gif"
                                                             alt="shopping centere"/></a>
 
     <div class="projectName">
-        <a href="/projects/project11.html" target="_blank">Торгово-развлекательный<br/>центр
+        <a href="/projects/9" target="_blank">Торгово-развлекательный<br/>центр
             "Пекин" </a>
 
     </div>
 
-    <a href="/projects/project13.html" target="_blank"> <img class="previewImg" src="/img/project24.gif"
+    <a href="/projects/10" target="_blank"> <img class="previewImg" src="/img/project24.gif"
                                                             alt="shopping centere"/></a>
 
     <div class="projectName">
-        <a href="/projects/project13.html" target="_blank">Торгово-развлекательный<br/>центр,
+        <a href="/projects/10" target="_blank">Торгово-развлекательный<br/>центр,
             г.Брест </a>
 
     </div>
@@ -124,43 +124,43 @@
 
 <div class="projectBlock">
 
-    <a href="/projects/project05.html" target="_blank"> <img class="previewImg" src="/img/project31.gif"
+    <a href="/projects/11" target="_blank"> <img class="previewImg" src="/img/project31.gif"
                                                             alt="domestic building"/> </a>
 
     <div class="projectName">
-        <a href="/projects/project05.html" target="_blank"> Жилой дом,<br/>Горный
+        <a href="/projects/11" target="_blank"> Жилой дом,<br/>Горный
             переулок</a>
     </div>
 
-    <a href="/projects/project06.html" target="_blank"> <img class="previewImg" src="/img/project32.gif"
+    <a href="/projects/12" target="_blank"> <img class="previewImg" src="/img/project32.gif"
                                                             alt="domestic building"/> </a>
 
     <div class="projectName">
-        <a href="/projects/project06.html" target="_blank"> Жилой дом,<br/> ул.
+        <a href="/projects/12" target="_blank"> Жилой дом,<br/> ул.
             Топографическая </a>
     </div>
 
-    <a href="/projects/project09.html" target="_blank"> <img class="previewImg" src="/img/project33.gif"
+    <a href="/projects/13" target="_blank"> <img class="previewImg" src="/img/project33.gif"
                                                             alt="domestic building"/> </a>
 
     <div class="projectName">
-        <a href="/projects/project09.html" target="_blank"> Жилой дом,<br/> микрорайон Дружба </a>
+        <a href="/projects/13" target="_blank"> Жилой дом,<br/> микрорайон Дружба </a>
 
     </div>
 
 
-    <a href="/projects/project08.html" target="_blank"> <img class="previewImg" src="/img/project34.gif"
+    <a href="/projects/14" target="_blank"> <img class="previewImg" src="/img/project34.gif"
                                                             alt="domestic building"/> </a>
 
     <div class="projectName">
-        <a href="/projects/project08.html" target="_blank"> Жилой дом,<br/>район Лебяжий </a>
+        <a href="/projects/14" target="_blank"> Жилой дом,<br/>район Лебяжий </a>
     </div>
 
 
-    <a href="/projects/project10.html" target="_blank"> <img class="previewImg" src="/img/project35.gif"
+    <a href="/projects/15" target="_blank"> <img class="previewImg" src="/img/project35.gif"
                                                             alt="domestic building"/> </a>
 
     <div class="projectName">
-        <a href="/projects/project10.html" target="_blank"> Жилой дом,<br/>ул. В. Хоружей </a>
+        <a href="/projects/15" target="_blank"> Жилой дом,<br/>ул. В. Хоружей </a>
     </div>
 </div>
