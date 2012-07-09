@@ -29,4 +29,8 @@ class ProjectType {
   
   static final String BUSINESS_CENTER = "BusinessCenter";
   
+  static final String ENTERTAINMENT_CENTER = "EntertainmentCenter";
+  
+  static final String DOMESTIC = "Domestic";
+  
 }
