@@ -31,7 +31,7 @@ class _ProjectsServiceImpl implements ProjectsService {
   Future<List<Project>> findAllForType(String type) {
     var projects = <Project>[];
     var completer = new Completer();
-    _mongoDb.collection("projects")
+    var transformFuture = _mongoDb.collection("projects")
             .find(selector: {"type": type}).each(onData(Map projectData) {
                  projects.add(new Project(projectData["id"], 
                                           projectData["name"], 
@@ -39,6 +39,10 @@ class _ProjectsServiceImpl implements ProjectsService {
                                           projectData["description"], 
                                           projectData["imgs"]));                
             });
+    transformFuture.then((status) {
+      completer.complete(projects);              
+    });
+    transformFuture.handleException((e) => completer.completeException(e));
     return completer.future;    
   }
   
