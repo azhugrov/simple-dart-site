@@ -5,3 +5,5 @@ dependencies:
   git: git://github.com/zhygr/log4dart.git
  MustacheDartPort:
   git: git://github.com/zhygr/MustacheDartPort.git
+ edt:
+  get: https://github.com/zhygr/edt.git
