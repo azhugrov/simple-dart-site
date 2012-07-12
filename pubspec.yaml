@@ -6,4 +6,6 @@ dependencies:
  MustacheDartPort:
   git: git://github.com/zhygr/MustacheDartPort.git
  edt:
-  get: https://github.com/zhygr/edt.git
+  git: https://github.com/zhygr/edt.git
+ mongo-dart:
+  git: https://github.com/zhygr/mongo-dart.git
