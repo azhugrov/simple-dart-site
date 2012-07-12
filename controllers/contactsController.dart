@@ -5,7 +5,7 @@ class ContactsController extends RestController {
        "image": "/img/future06.jpg",
        "menu": "contacts"
     };
-    var view = new D_sellstome_hypcomm_site_views_contacts_index_edt();
+    var view = new _contacts_index_edt();
     view.render(viewData, rsp.outputStream);
     return null;
   }

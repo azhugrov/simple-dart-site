@@ -5,7 +5,7 @@ class AboutusController extends RestController {
       "image": "/img/future02.jpg",
       "menu": "aboutus"
     };
-    var view = new D_sellstome_hypcomm_site_views_aboutus_index_edt();
+    var view = new _aboutus_index_edt();
     view.render(viewData, rsp.outputStream);
     return null;          
   }

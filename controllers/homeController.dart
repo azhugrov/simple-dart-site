@@ -5,7 +5,7 @@ class HomeController extends RestController {
       "image": "/img/future01.jpg",
       "menu": "home"
     };
-    var view = new D_sellstome_hypcomm_site_views_home_index_edt();
+    var view = new _home_index_edt();
     view.render(viewData, rsp.outputStream);
     return null;
   }

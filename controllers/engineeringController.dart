@@ -5,7 +5,7 @@ class EngineeringController extends RestController {
       "image": "/img/future04.jpg",
       "menu": "engineering"
     };
-    var view = new D_sellstome_hypcomm_site_views_engineering_index_edt();
+    var view = new _engineering_index_edt();
     view.render(viewData, rsp.outputStream);
     return null;
   }

@@ -19,7 +19,7 @@ class ProjectsController extends RestController {
                             return _projectsService.findAllForType(ProjectType.DOMESTIC);
                            }).transform((domestic) {
                             viewData["domestic"] = domestic;
-                            var view = new D_sellstome_hypcomm_site_views_projects_index_edt();
+                            var view = new _projects_index_edt();
                             view.render(viewData, rsp.outputStream);
                             return data;                      
                            });
@@ -32,7 +32,7 @@ class ProjectsController extends RestController {
         "menu": "projects",
         "project": project
       };
-      var view = new D_sellstome_hypcomm_site_views_projects_show_edt();
+      var view = new _projects_show_edt();
       view.render(viewData, rsp.outputStream);
       return data;
     });

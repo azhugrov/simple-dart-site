@@ -5,7 +5,7 @@ class DesignController extends RestController {
       "image": "/img/future07.jpg",
       "menu": "design"
     };
-    var view = new D_sellstome_hypcomm_site_views_design_index_edt();
+    var view = new _design_index_edt();
     view.render(viewData, rsp.outputStream);
     return null;      
   }
