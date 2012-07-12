@@ -25,7 +25,7 @@ class Application {
             .addEndpoint(new ControllerRoute("/contacts",     new ContactsController()))
             .addEndpoint(new StaticFile("./static"));
       server.modules["*"] = module;
-      server.listen("178.159.244.203", 8080);     
+      server.listen("10.1.169.77", 8080);     
     });
   }  
 }
