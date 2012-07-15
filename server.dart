@@ -22,7 +22,8 @@ class Application {
             .addEndpoint(new Route("/design/nursery",    "GET", DesignExamplesController.nursery))
             .addEndpoint(new ControllerRoute("/design",       new DesignController()))
             .addEndpoint(new ControllerRoute("/engineering",  new EngineeringController()))
-            .addEndpoint(new ControllerRoute("/contacts",     new ContactsController()));
+            .addEndpoint(new ControllerRoute("/contacts",     new ContactsController()))
+            .addEndpoint(new StaticFile("./static"));
       server.modules["*"] = module;
       server.listen("10.1.169.77", 8080);     
     });
