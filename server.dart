@@ -24,7 +24,7 @@ class Application {
             .addEndpoint(new ControllerRoute("/engineering",  new EngineeringController()))
             .addEndpoint(new ControllerRoute("/contacts",     new ContactsController()));
       server.modules["*"] = module;
-      server.listen("127.0.0.1", 8080);     
+      server.listen("10.1.169.77", 8080);     
     });
   }  
 }
