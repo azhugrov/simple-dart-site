@@ -1,6 +1,7 @@
 #library("hypcomm:site");
 #import("dart:json");
 #import("dart:io");
+#import("dart:isolate"); //temp import. remove as soon as posible.
 #import("packages/CrimsonHttp/core/CrimsonLib.dart");
 #import("packages/CrimsonHttp/handlers/HandlersLib.dart");
 #import("packages/log4dart/Lib.dart");

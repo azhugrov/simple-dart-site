@@ -26,16 +26,21 @@ class ProjectsController extends RestController {
   }
   
   Future show(HttpRequest req, HttpResponse rsp, CrimsonData data) {
-    return _projectsService.findById(data["id"]).transform(onSuccess(project) {
-      Map viewData = {
-        "image": "/img/future03.jpg",
-        "menu": "projects",
-        "project": project
-      };
-      var view = new _projects_show_edt();
-      view.render(viewData, rsp.outputStream);
-      return data;
+    var completer = new Completer();
+    new Timer(1000, callback(t) {
+      completer.completeException(new NullPointerException());  
     });
+    return completer.future;    
+//    return _projectsService.findById(data["id"]).transform(onSuccess(project) {
+//      Map viewData = {
+//        "image": "/img/future03.jpg",
+//        "menu": "projects",
+//        "project": project
+//      };
+//      var view = new _projects_show_edt();
+//      view.render(viewData, rsp.outputStream);
+//      return data;
+//    });
   }
 
 }
