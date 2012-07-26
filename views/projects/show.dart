@@ -66,7 +66,7 @@ class _projects_show_edt extends EDTemplate {
  } 
     out.writeString("\r\n</div>");
     out.writeString("\r\n    </div>\r\n</div>\r\n");
-    out.writeString("<div id=\"footer\">\r\n    <div id=\"footerTxt\">\r\n        220004, РБ, Минск, ул. П. Бровки 12.А<br/>\r\n        Тел.:+(375 29)111-31-31, +(375 29) 656-45-54<br/>\r\n        E-mail:mail@hyp-project.by\r\n    </div>\r\n</div>");
+    out.writeString("<div id=\"footer\">\r\n    <div id=\"footerTxt\">\r\n        220004, РБ, Минск, ул. П. Бровки 12.А<br/>\r\n        Тел.:+(375 29)111-31-31, +(375 29) 656-45-54<br/>\r\n        E-mail:hypcomm@gmail.com\r\n    </div>\r\n</div>");
     out.writeString("\r\n</body>\r\n</html>");
   }
 }
