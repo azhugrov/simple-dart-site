@@ -306,6 +306,10 @@ img {
     width: 32%;
 }
 
+.title.name {
+    padding-left: 40px;
+}
+
 #contactTxt {
     font-size: 14px;
     margin-top: 30px;
@@ -341,7 +345,6 @@ img {
     display: block;
     width: 250px;
     height: 5px;
-    margin-left: 40px;
     margin-top: 3px;
 }
 

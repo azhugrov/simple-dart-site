@@ -81,39 +81,36 @@
 <!--shopping centeres block-->
 
 <div class="projectBlock">
-    <a href="/projects/7" target="_blank"> <img class="previewImg" src="/img/project21.gif"
+    <a href="/projects/7"> <img class="previewImg" src="/img/project21.gif"
                                                             alt="shopping centere"/> </a>
 
 
     <div class="projectName">
-        <a href="/projects/7" target="_blank"> Торгово-развлекательный,<br/>центр, г. Бобруйск </a>
+        <a href="/projects/7"> Торгово-развлекательный,<br/>центр, г. Бобруйск </a>
 
     </div>
 
-    <a href="/projects/8" target="_blank"> <img class="previewImg" src="/img/project22.gif"
+    <a href="/projects/8"> <img class="previewImg" src="/img/project22.gif"
                                                             alt="shopping centere"/> </a>
 
     <div class="projectName">
-        <a href="/projects/8" target="_blank"> Торгово-развлекательный<br/>центр
-            "Новинки" </a>
+        <a href="/projects/8"> Торгово-развлекательный<br/>центр "Новинки" </a>
     </div>
 
 
-    <a href="/projects/9" target="_blank"> <img class="previewImg" src="/img/project23.gif"
+    <a href="/projects/9"> <img class="previewImg" src="/img/project23.gif"
                                                             alt="shopping centere"/></a>
 
     <div class="projectName">
-        <a href="/projects/9" target="_blank">Торгово-развлекательный<br/>центр
-            "Пекин" </a>
+        <a href="/projects/9">Торгово-развлекательный<br/>центр "Пекин" </a>
 
     </div>
 
-    <a href="/projects/10" target="_blank"> <img class="previewImg" src="/img/project24.gif"
+    <a href="/projects/10"> <img class="previewImg" src="/img/project24.gif"
                                                             alt="shopping centere"/></a>
 
     <div class="projectName">
-        <a href="/projects/10" target="_blank">Торгово-развлекательный<br/>центр,
-            г.Брест </a>
+        <a href="/projects/10">Торгово-развлекательный<br/>центр, г.Брест </a>
 
     </div>
 
@@ -128,16 +125,14 @@
                                                             alt="domestic building"/> </a>
 
     <div class="projectName">
-        <a href="/projects/11" target="_blank"> Жилой дом,<br/>Горный
-            переулок</a>
+        <a href="/projects/11" target="_blank"> Жилой дом,<br/>Горный переулок</a>
     </div>
 
     <a href="/projects/12" target="_blank"> <img class="previewImg" src="/img/project32.gif"
                                                             alt="domestic building"/> </a>
 
     <div class="projectName">
-        <a href="/projects/12" target="_blank"> Жилой дом,<br/> ул.
-            Топографическая </a>
+        <a href="/projects/12" target="_blank"> Жилой дом,<br/> ул. Топографическая </a>
     </div>
 
     <a href="/projects/13" target="_blank"> <img class="previewImg" src="/img/project33.gif"

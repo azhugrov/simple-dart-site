@@ -1,13 +1,12 @@
 {{~ ../layout/layout.edl }}
 {{~ content }}
 {{ var project = data["project"]; }}
-<div class="title">
-    <img class='titleImg' src="/img/project01/project-title.gif" alt="title"/>
-    <div class="underLineP"><img class="vertLine" src="/img/vertical-line.gif" alt=""/></div>
+<div class="title name">
+    <span>{{= project.name }}</span>
+    <div class="underLineP"></div>
 </div>
 
 <div class="projectInfo">
-    <p>{{= project.name }}</p>
     {{- project.description }}
 </div>
 

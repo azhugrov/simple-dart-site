@@ -46,9 +46,9 @@ class _projects_show_edt extends EDTemplate {
     out.writeString("\r\n        ");
     out.writeString("\r\n");
  var project = data["project"]; 
-    out.writeString("\r\n<div class=\"title\">\r\n    <img class='titleImg' src=\"/img/project01/project-title.gif\" alt=\"title\"/>\r\n    <div class=\"underLineP\"><img class=\"vertLine\" src=\"/img/vertical-line.gif\" alt=\"\"/></div>\r\n</div>\r\n\r\n<div class=\"projectInfo\">\r\n    <p>");
+    out.writeString("\r\n<div class=\"title name\">\r\n    <span>");
     out.writeString(escapeHtml( project.name ));
-    out.writeString("</p>\r\n    ");
+    out.writeString("</span>\r\n    <div class=\"underLineP\"></div>\r\n</div>\r\n\r\n<div class=\"projectInfo\">\r\n    ");
     out.writeString( project.description );
     out.writeString("\r\n</div>\r\n\r\n<div class=\"projectImg\">\r\n    ");
  for (int i = 0; i < project.imgs.length; i++) { 
